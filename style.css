@@ -1,0 +1,15 @@
+.container{
+    max-width: 100%;
+    margin-inline: auto;
+    padding-inline: 2rem;
+}
+
+.photo-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+img {
+    width: 40em;
+}
